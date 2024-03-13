@@ -361,7 +361,7 @@ style {
     width: 40px;
     height: 40px;
 }
-.icon2 {
+.icons {
     fill: #f4f4fd;
 }
 .somere-icon{
@@ -420,9 +420,6 @@ style {
     width: 100%;
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.portfolio-text:hover{
-    transform: translateY(0%);
 }
 .portfolio-item .overlay-text:hover {
     transform: translateY(0%);
