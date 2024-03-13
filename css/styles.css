@@ -99,7 +99,6 @@ style {
     text-transform: uppercase;
     color: #2e2f42;
     font-family: "Raleway", sans-serif;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .page-list {
@@ -111,7 +110,7 @@ style {
     padding-bottom: 24px;
     color: #2e2f42;
     display: block;
-
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .page-ul-nav {
@@ -215,7 +214,7 @@ style {
     border: none;
     margin-left: auto;
     margin-right: auto;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .service-btn:hover {
@@ -360,6 +359,7 @@ style {
 .somere-item{
     width: 40px;
     height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-2 {
     fill: #f4f4fd;
@@ -391,9 +391,7 @@ style {
     margin-bottom: 72px;
     
 }
-.portfolio-item:hover{
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-}
+
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
@@ -406,9 +404,7 @@ style {
     position: relative;
     overflow: hidden;
 }
-.portfolio-item:hover  {
-    transform: translateY(0%);
-}
+
 .overlay-text{
     position: absolute;
     top: 0;
@@ -429,7 +425,10 @@ style {
     width: calc((100% - 48px) / 3);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.portfolio-item:hover {
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    transform: translateY(0%);
+}
 .con-portfolio {
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
@@ -460,7 +459,10 @@ style {
     background: #2e2f42;
     padding: 100px 0;
 }
-
+.come .container{
+    display: flex;
+    align-items: first baseline;
+}
 .come-text {
     font-weight: 400;
     font-size: 16px;
@@ -491,8 +493,11 @@ style {
     height: 40px;
 
 }
-.somere-item-come:hover {
-    background-color: #31D0AA;
+.somere-item-come a:hover {
+    background-color: #31d0aa;
+}
+.somere-item-come a:focus {
+    background-color: #31d0aa;
 }
 .somere-icon-come{
     width: 100%;
@@ -502,6 +507,7 @@ style {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .come-lp{
