@@ -360,7 +360,6 @@ style {
 .somere-item{
     width: 40px;
     height: 40px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon2 {
     fill: #f4f4fd;
@@ -373,6 +372,7 @@ style {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .somere-icon:hover,
 .somere-icon:focus {
@@ -424,7 +424,7 @@ style {
 .portfolio-text:hover{
     transform: translateY(0%);
 }
-.overlay .overlay-text:hover {
+.portfolio-item .overlay-text:hover {
     transform: translateY(0%);
 }
 .portfolio-item {
